@@ -1,0 +1,14 @@
+#Find Max Number 
+
+numbers = []
+
+num = int(input("How many numbers want to enter in list"))
+
+print("Enter numbers")
+
+for n in range(num):
+    element = int(input())
+    numbers.append(element)
+
+print("Max number from the given numbers is:",max(numbers))
+
