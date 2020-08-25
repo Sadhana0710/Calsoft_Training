@@ -1,4 +1,4 @@
-# file handling
+""" file handling"""
 
 file = open("new_file.txt","w+")
 
